@@ -20,7 +20,8 @@ body{
 /* box in the background with drak shadow effect */
 .box{ 
     position: absolute; top: 45%; left: 50%; 
-    transform: translate(-50%,-50%); background: rgba(0, 0, 0, 0.69); 
+    transform: translate(-50%,-50%); 
+    background: rgba(0, 0, 0, 0.69);  /* I have used this CSS to produc a dark shadow background in the shadow*/
     box-shadow: 0 0 10px rgba(0,0,0,0.3); 
     padding: 45px; 
     border-radius: 15px;
